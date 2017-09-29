@@ -1,0 +1,63 @@
+﻿<div class="container">
+
+    <div class="row" id="first-part">
+        <img class="img-responsive" id="header-img" src="http://lorempixel.com/1920/1080/business/8/" />
+        <div class="about-us-cards">
+            <div class="col-md-3 about-us-card">Ipsum dolor sit amet consectetuer adipiscing elit.</div>
+            <div class="col-md-3 about-us-card">Sed ut perspiciatis consequat massa quis enim.</div>
+            <div class="col-md-3 about-us-card">Li Europan lingues consequat vitae, eleifend ac, enim.</div>
+            <div class="col-md-3 about-us-card">One morning, when Gregor vulputate eleifend tellus.</div>
+        </div>
+    </div>
+
+    <div class="row" id="second-part">
+        <div class="about-us-longer">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+            <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+            <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a</p>
+        </div>
+    </div>
+
+    <div class="row" id="third-part">
+        <div class="w3-content" style="max-width:1200px">
+            <img class="mySlides" src="http://lorempixel.com/1920/1080/business/6">
+            <img class="mySlides" src="http://lorempixel.com/1920/1080/business/5">
+            <img class="mySlides" src="http://lorempixel.com/1920/1080/business/9">
+            <img class="mySlides" src="http://lorempixel.com/1920/1080/business/1">
+            <div class="w3-row-padding w3-section">
+                <div class="w3-col s3">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="http://lorempixel.com/1920/1080/business/6" style="width:90%" onclick="currentDiv(1)">
+                </div>
+                <div class="w3-col s3">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="http://lorempixel.com/1920/1080/business/5" style="width:90%" onclick="currentDiv(2)">
+                </div>
+                <div class="w3-col s3">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="http://lorempixel.com/1920/1080/business/9" style="width:90%" onclick="currentDiv(3)">
+                </div>
+                <div class="w3-col s3">
+                    <img class="demo w3-opacity w3-hover-opacity-off" src="http://lorempixel.com/1920/1080/business/1" style="width:90%" onclick="currentDiv(4)">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row" id="fourth-part">
+        <div class="col-md-12">
+            <h3>Contact Us</h3>
+            <div class="address col-md-6">
+                <i class="material-icons">business</i><h4>22 Southern Street, Syosset</h4>
+                <i class="material-icons">call</i><h4>516-677-4672</h4>
+                <i class="material-icons">email</i><h4>Lorem@yahoo.com</h4>
+            </div>
+            <form class="inputs col-md-6" onsubmit="makeJson(this)" method='POST' enctype="text/plain">
+                <input name="firstname" type="text" placeholder="Firstname" required />
+                <input name="lastname" type="text" placeholder="Lastname" required />
+                <input name="emailAddress" type="email" placeholder="Email Address" required />
+                <textarea name="message" type="text" placeholder="What can we help you with?" required></textarea>
+                <input type="submit" />
+            </form>
+        </div>
+    </div>
+</div>
+
